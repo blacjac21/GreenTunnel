@@ -20,7 +20,7 @@ const { argv } = yargs
 	.option('ip', {
 		type: 'string',
 		describe: 'ip address to bind proxy server',
-		default: '127.0.0.1',
+		default: '192.168.1.101',
 	})
 
 	.option('port', {
